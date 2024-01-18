@@ -1,0 +1,21 @@
+{
+    "name": "polling-api",
+    "version": "1.0.0",
+    "description": "This back end project polling system api is developed using nodejs in where user can make a call to different api and \r can be used where polling/voting type of situation is expected . In this api user can",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon index.js -e ejs,js"
+    },
+    "keywords": [],
+    "author": "Sovit",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "ejs": "^3.1.9",
+      "express": "^4.18.2",
+      "mongoose": "^7.6.8",
+      "nodemon": "^3.0.3"
+    }
+  }
+  
